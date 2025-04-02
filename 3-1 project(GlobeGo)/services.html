@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobeGo - Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #7927bd;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .services-section {
+            padding: 50px;
+            background-image: url('your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* Optional overlay to improve text readability */
+        .services-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.526); /* Adjust opacity for desired effect */
+            border-radius: 8px;
+        }
+
+        .services-section h2, .service {
+            position: relative;
+            z-index: 1;
+        }
+
+        .services-section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .service {
+            margin-bottom: 30px;
+        }
+
+        .service h3 {
+            font-size: 1.8rem;
+            color: #333;
+        }
+
+        .service p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Explore the World with Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li> <!-- Updated Login Link -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="services-section" id="services">
+        <h2>Our Services</h2>
+
+        <div class="service">
+            <h3>Personalized Tour Guide</h3>
+            <strong><p>Our experienced and knowledgeable tour guides provide a personalized experience tailored to your preferences, making sure you discover the hidden gems of each destination.</p></strong>
+        </div>
+
+        <div class="service">
+            <h3>City Tours and Historical Walks</h3>
+            <strong><p>Explore the rich history and culture of the cities with in-depth historical walks. Learn the fascinating stories behind famous landmarks and attractions.</p></strong>
+        </div>
+
+        <div class="service">
+            <h3>Adventure and Outdoor Activities</h3>
+            <strong><p>Our tour guides specialize in adventure tours, offering activities like hiking, snorkeling, and wildlife safaris, ensuring you experience the thrill of the great outdoors.</p></strong>
+        </div>
+
+        <div class="service">
+            <h3>Cultural Experiences and Workshops</h3>
+            <strong><p>Immerse yourself in local traditions with cultural workshops, cooking classes, and artisan visits. Our guides help you connect with the heart of each culture.</p></strong>
+        </div>
+
+        <div class="service">
+            <h3>Customized Itineraries</h3>
+            <strong><p>Not sure where to go? We'll help you design the perfect travel itinerary based on your interests, ensuring you get the most out of your trip.</p></strong>
+        </div>
+
+        <div class="service">
+            <h3>Private Transportation and Transfers</h3>
+            <strong><p>We provide comfortable, private transportation options for seamless travel between destinations. Enjoy hassle-free transfers and scenic routes.</p></strong>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GlobeGo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

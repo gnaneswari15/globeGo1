@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobeGo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #7927bd;
+        }
+
+        header {
+            background: linear-gradient(135deg, #333, #555); /* Gradient background */
+            color: #fff;
+            padding: 1rem 0;
+            position: relative; /* Make header relative for absolute positioning */
+            text-align: center; /* Center align text in header */
+        }
+
+        /* Logo styles */
+        .logo {
+            width: 200px;
+            height: 150px;
+            opacity: 0.8; /* Make logo a bit more opaque for visibility */
+            position: absolute; /* Position logo absolutely */
+            top: 10px; /* Adjust the distance from the top */
+            left: 10px; /* Align logo to the left corner */
+            border-radius: 50%;
+        }
+
+        .container {
+            max-width: 1200px; /* Set a max width for better readability */
+            margin: 0 auto; /* Center the container */
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+        }
+
+        header h1 {
+            font-size: 2.5rem; /* Increase font size for a more impactful title */
+            margin: 0; /* Remove default margin */
+            letter-spacing: 1px; /* Add some letter spacing for elegance */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for depth */
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 10px; 
+            margin-bottom: 30px;/* Add top margin for spacing */
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s; /* Add a transition effect */
+        }
+
+        header nav ul li a:hover {
+            color: #ffcc00; /* Change color on hover for better interaction */
+            text-decoration: underline; /* Underline on hover for emphasis */
+        }
+
+        #hero {
+            background-image: url('travel.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #hero .hero-text {
+            background: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
+            padding: 40px; /* Increase padding for a spacious look */
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6); /* Enhanced shadow for depth */
+        }
+
+        #hero h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .caption {
+            font-size: 1.5rem;
+            margin: 15px 0; /* Adjust margin for captions */
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0; /* Increase padding for footer */
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 1rem; /* Set a specific font size for the footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" class="logo" alt="GlobeGo Logo">
+        <div class="container">
+            <h1 class="matter">Explore the World with Us</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Your Next Adventure Awaits</h2>
+            <p>Discover beautiful places and unique experiences around the world.</p>
+            <div class="caption">Journey Beyond the Ordinary</div>
+            <div class="caption">Create Lasting Memories with Every Trip</div>
+            <div class="caption">Your Travel Story Begins Here</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GlobeGo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
